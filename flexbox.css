@@ -1,0 +1,29 @@
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.btn{
+    padding: 0.7rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    /* border: 2px solid black; */
+    border-radius: 15%;
+    cursor: pointer;
+    border-style: groove;
+    background: transparent;
+    transition: 0.5s ease;
+}
+.btn-search{
+    /* background: rgb(159, 161, 156); */
+    color: cornsilk;
+}
+.btn-search:hover{
+   background: rgb(131, 130, 128);
+   border-color: rgb(243, 241, 241);
+   color: rgb(252, 247, 247); 
+}

@@ -1,0 +1,100 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background: transparent;
+    list-style: none;
+}
+.mid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-height: 50%;
+}
+
+/* skills section */
+.skills{
+    background: transparent;
+    width: 350px;
+    margin: 0 30%;
+    color: white;
+    /* padding: 30px 30px 30px 30px; */
+    
+   
+}
+.skills li{
+    margin: 10px,auto;
+    height: 30px;
+    padding-bottom: 10px;
+}
+.bar{
+    background: #030303;
+    display: block;
+    height: 3px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0 10px silver;
+}
+.bar span{
+    height: 2px;
+    float: left;
+    background: #3df704;
+}
+.html{
+    width: 90%;
+    animation: html 2s;
+}
+.css{
+    width: 60%;
+    animation: css 2s;
+}
+.js{
+    width: 50%;
+    animation: js 2s;
+}
+.python{
+    width: 75%;
+    animation: python 2s;
+}
+.mongodb{
+    width: 50%;
+    animation: mongodb 2s;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes js {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes python {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes mongodb {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
