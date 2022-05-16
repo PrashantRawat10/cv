@@ -13,7 +13,7 @@ body{
 .skills{
     background: transparent;
     width: 350px;
-    margin: 0 30%;
+    margin: 0 40%;
     color: white;
     /* padding: 30px 30px 30px 30px; */
     
@@ -58,6 +58,10 @@ body{
     width: 50%;
     animation: mongodb 2s;
 }
+.reactjs{
+    width: 40%;
+    animation: reactjs 2s;
+}
 @keyframes html {
     0%{
         width: 0%;
@@ -96,5 +100,13 @@ body{
     }
     100%{
         width: 50%;
+    }
+}
+@keyframes reactjs {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
     }
 }
