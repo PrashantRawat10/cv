@@ -1,1 +1,2 @@
 # cv
+VIEW ONLY IN DESKTOP MODE!
